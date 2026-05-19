@@ -1,0 +1,391 @@
+/* ここから下に記載していく */
+
+/* ワイドのサイズ固定 */
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 横組 縦位置センター */
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+
+.main-header{
+    background-color: #fff;
+    height: 120px;
+    padding: 10px 0;
+    height: auto;
+     
+}
+
+.main-header img{
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.main-nav{
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+  margin-right: 30px;
+}
+
+.main-nav a {
+  text-decoration: none; 
+  color: #333;        
+  font-weight: bold;    
+  font-size:21px;
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.Key-visual {
+  background-image: url("../img/say_chees/Top_bunner_2.png");
+  background-size: 1200px;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.Key-visual h1 {
+  font-size: 50px; 
+  color: #fff;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+transform: translateY(60px);
+}
+
+.Key-visual h2 {
+  font-size: 30px; 
+  color: #fff;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+  margin-top: 30px;
+  transform: translateY(60px);
+}
+
+.main-body{
+  background-color: #fffbdf;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.main-body p{
+    line-height: 1.8;
+    font-size: 16px;
+    margin-top: 0px;
+    display: block;
+}
+
+.about p {
+    margin-top: 40px;
+}
+
+.main-body p:last-child {
+  margin-bottom: 60px;
+  
+}
+    
+h2{
+  font-size: 24px;
+  color: #f39c32;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+h4{
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.cushion-slider {
+  width: 100%;
+  overflow: hidden; 
+  background-color: #fff;
+}
+
+.slider-list {
+  display: flex;
+  width: 200%; 
+  animation: loop 50s linear infinite; 
+}
+.slider-list li {
+  width: 12.5%; 
+  list-style: none;
+}
+.slider-list img {
+  width: 100%;
+  display: block;
+  height: 300px; 
+  object-fit: cover; 
+}
+@keyframes loop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+}
+
+.course-logic{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.course-logic img {
+  width: 50%;          
+  object-fit: cover; 
+  height: auto;
+  align-self: stretch;
+}
+
+.course-logic p {
+  font-size: 16px;    
+  line-height: 1.8;   
+  text-align: left;  
+  margin: 0;
+}
+.course-logic div {
+  width: 50%;           
+  background-color: #fff; 
+  padding: 120px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.course-logic h4 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;    
+  margin-bottom: 40px; 
+  line-height: 1.4;
+}
+
+.course-logic.reverse {
+    flex-direction: row-reverse;
+}
+
+.course-logic p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+#NEWS h2 {
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+#NEWS h3 {
+  margin-bottom: 60px;
+}
+
+
+.news-list{
+   display: flex;
+   justify-content: center;
+   gap: 30px; 
+}
+
+.news-list img {
+ width: 300px; 
+  height:225px;
+  align-self:center; 
+  display: block;
+}
+
+.news-list li {
+   width: 300px; 
+    list-style: none;
+}
+
+.news-list a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.news-list li:hover img {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.news-content {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.news-date {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.news-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.more-btn-box {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.more-btn {
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f39c32;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.more-btn:hover {
+  opacity: 0.8;
+}
+
+
+.access-map {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.access-info {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info-row:last-child {
+    margin-bottom: 0;
+}
+
+.access-info dt {
+    width: 150px;
+    margin-right: 50px; 
+}
+
+.access-info dd {
+    margin: 0;
+}
+
+#Access {
+    background-color: #f2f2f2;
+}
+
+#Contact h2 { margin-top: 60px; }
+.contact-sub { margin-top: 30px; }
+.contact-intro { margin-top: 60px; line-height: 1.6; }
+.contact-note { margin-top: 30px; line-height: 1.6; font-weight: bold; }
+
+.contact-form {
+    width: 640px;
+    margin: 70px auto 140px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #bfbfbf;
+    padding: 8px 0;
+}
+
+.no-border-bottom {
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    width: 240px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-input-area {
+    width: 400px;
+    text-align: left;
+}
+
+.input-field, .select-field {
+    width: 328px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.textarea-field {
+    width: 328px;
+    height: 120px;
+    border: 1px solid #bfbfbf;
+    margin: 8px 0;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px 0;
+}
+
+.align-top {
+    align-items: flex-start;
+    padding-top: 16px;
+}
+
+.submit-box {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #707070; 
+    color: #fff;             
+    text-align: center;       
+    padding: 30px 0;        
+}
+
+footer p {
+    font-size: 14px;         
+    margin: 0;
+}
